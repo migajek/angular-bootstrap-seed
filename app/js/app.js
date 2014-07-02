@@ -17,5 +17,13 @@ function ($stateProvider,   $urlRouterProvider) {
 		.state("home", {
 			url: '/',
 			templateUrl: 'partials/partial1.html',			
+		})
+
+		.state("page2", {
+			url: '/page2',
+			templateUrl: 'partials/partial2.html',			
 		});
+
+		$urlRouterProvider
+          .otherwise('/');
 }]);
