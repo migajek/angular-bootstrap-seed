@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>My AngularJS App</title>
+  <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+  <ul class="nav nav-tabs" role="tablist">
+    <li><a href="#/" class="">Home</a></li>
+    <li><a href="#/view2">Page 2</a></li>
+  </ul>
+
+  <div ui-view></div>
+
+  <div>Angular seed app: v<span app-version></span></div>
+
+  
+  <!-- angular + bootstrap + router -->
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-ui-bootstrap/ui-bootstrap-tpls-0.11.0.min.js"></script>
+  <script src="lib/angular-ui-router/angular-ui-router.min.js"></script>
+
+  <!-- restangular -->
+  <script src="lib/lodash/lodash.min.js"></script>
+  <script src="lib/restangular/restangular.min.js"></script>
+  
+  <!-- the app -->
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+</body>
+</html>
