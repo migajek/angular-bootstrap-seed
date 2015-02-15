@@ -5,7 +5,8 @@
 angular.module('myApp', [
   'ui.router',
   'ui.bootstrap',
-  'restangular',  
+  'restangular',    
+  'angular-loading-bar',  
   'myApp.filters',
   'myApp.services',
   'myApp.directives',
